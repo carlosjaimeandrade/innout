@@ -12,7 +12,7 @@ $login = new Login([
 
 try{
     $login->checklogin();
-    echo "Deu certo ";
+
 } catch(Exception $e){
     echo 'problema de login';
 }
