@@ -13,7 +13,8 @@
 </head>
 
 <body>
-    <form class="form-login" action="#" method="post">
+
+    <form class="form-login"  method="post">
         <div class='login-card card'>
             <div class="card-header">
                 <i class="icofont-travelling mr-2"></i>
@@ -25,19 +26,20 @@
             <div class="card-body">
                 <div class="form-group">
                     <label for="email">E-mail</label>
-                    <input id='email' type="email" class="form-control" placeholder="Digite o email" autofocus='true'>
+                    <input id='email' value='<?= $email?>' name='email' type="email" class="form-control" placeholder="Digite o email" autofocus='true'>
                 </div>
                 <div class="form-group">
                     <label for="password">Senha</label>
-                    <input id='password' type="password" class="form-control" placeholder="Digite sua senha">
+                    <input id='password' name='password' type="password" class="form-control" placeholder="Digite sua senha">
                 </div>
             </div>
             <div class="card-footer">
-            <button class='btn btn-lg btn-primary'>entrar</button>
+            <button type="submit" class='btn btn-lg btn-primary'>entrar</button>
         </div>
         </div>
 
     </form>
+
 </body>
 
 </html>
