@@ -1,4 +1,4 @@
-<aside class='sidebar'>
+<aside class='aside'>
     <nav class="menu mt-3">
         <ul class="nav-list"> 
             <li class='nav-item'>
