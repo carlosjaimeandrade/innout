@@ -136,6 +136,38 @@ aside.aside {
     font-size: 1.2em;
 }
 
+.sidebar-widget {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-widgets {
+    position: fixed;
+    bottom: 10px;
+    padding: 10px;
+}
+
+.division {
+    widows: 80%;
+    border: solid 1px #eee;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.icon {
+    font-size: 3.5rem;
+    margin: 2px 10px 2px 0px;
+}
+
+.info .main {
+    font-size: 2rem;
+}
+
 body.hide-sidebar aside {
     display: none;
 }
