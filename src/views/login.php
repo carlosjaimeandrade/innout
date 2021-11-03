@@ -21,7 +21,7 @@
                 <span class="font-weight-light">in</span>
                 <span class="font-weight-bold m-1">N'</span>
                 <span class="font-weight-light">Out</span>
-                <i class="icofont-runner-alt-1 ml-2"></i>
+                
             </div>
             <div class="card-body">
                 <?php 
