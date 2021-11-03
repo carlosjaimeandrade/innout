@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="assets/css/template.css">
 </head>
 
-<body class='hiide-sidebar'>
+<body class='hide-sidebar'>
     <header class="header">
         <div class="logo">
             <i class="icofont-travelling mr-2"></i>
