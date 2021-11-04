@@ -2,7 +2,7 @@
     <div class="content-title mb-4">
         <i class="icon icofont-check-alt mr-2"></i>
         <div>
-            <h1>Registrar</h1>
+            <h1>Registrar ponto</h1>
             <h2>Mantenha seu ponto consistente!</h2>
         </div>
     </div>
@@ -13,12 +13,12 @@
         </div>
         <div class="card-body">
             <div class="d-flex m-5 justify-content-around">
-                <span>Entrada 1: ---</span>
-                <span>Saida 2: ---</span>
+                <span class="record">Entrada 1: ---</span>
+                <span class="record">Saida 2: ---</span>
             </div>
             <div class="d-flex m-5 justify-content-around">
-                <span>Entrada 1: ---</span>
-                <span>Saida 2: ---</span>
+                <span class="record">Entrada 1: ---</span>
+                <span class="record">Saida 2: ---</span>
             </div>
         </div>
     </div>
