@@ -215,3 +215,9 @@ body.hide-sidebar {
     margin: 0;
     background-color: rgba(221, 221, 221, 0.445);
 }
+
+.avatar {
+    height: 75%;
+    border-radius: 50%;
+    margin: 0px 3px 0px 10px;
+}
