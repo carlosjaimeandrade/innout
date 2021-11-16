@@ -12,7 +12,7 @@ function getDayTemplateByOdds($regularRate, $extraRate, $layzRate){
     
     $extraHourDayTemplate = [
         'time1' => '08:00:00',
-        'time2' => '12:00:00',
+        'time2' => '12:00:01',
         'time3' => '13:00:00',
         'time4' => '18:00:00',
         'worked_time' => DAILY_TIME + 3600
