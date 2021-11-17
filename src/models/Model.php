@@ -61,6 +61,7 @@ class Model{
         }
         $sql[strlen($sql) -1 ] = ')';
         $id =  Database::executeSQL($sql);
+        $this->id = $id;
     }
 
     private static function getFilters($filters){
