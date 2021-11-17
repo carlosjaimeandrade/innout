@@ -1,7 +1,7 @@
 <?php
 class Model{
     protected static $tableName = '';
-    protected static $columns = '';
+    protected static $columns = [];
     protected $values = [];
 
     function __construct($arr){
@@ -51,6 +51,16 @@ class Model{
         }else{
             return $result;
         }
+    }
+
+    public function save(){
+        $sql = "INSERT INTO" . static::$tableName . " (" 
+        . implode(",", static::$columns) . ") VALUES (";
+        foreach(static::$columns as $col){
+            $sql .= static::getFormattedValue($this->$col) . ",";
+        }
+        $sql[strlen($sql) -1 ] = ')';
+        $id =  Database::executeSQL($sql);
     }
 
     private static function getFilters($filters){
