@@ -3,6 +3,7 @@ class Model{
     protected static $tableName = '';
     protected static $columns = [];
     protected $values = [];
+    public $id = '';
 
     function __construct($arr){
         $this->loadFromArray($arr);
