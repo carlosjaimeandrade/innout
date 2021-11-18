@@ -52,8 +52,10 @@ function populateWorkingHours($userId, $initialDate, $regularRate, $extraRate, $
             $workingHours = new WorkingHours($columns);
             $workingHours->save();
         }
-        
+        $currentDate = getNextDay($currentDate)->format('Y-m-d');
+        $columns['work_date'] = $currentDate;
     }
 }
 
+populateWorkingHours(1, date('Y-m-1'), 70,20,10);
 echo "tudo certo";
