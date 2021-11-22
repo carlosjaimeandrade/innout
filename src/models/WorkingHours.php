@@ -23,6 +23,6 @@ class WorkingHours extends Model{
                     'worked_time' => 0
                 ]);
             }
-            return   $registry ;
+            return $registry ;
         }
 }
