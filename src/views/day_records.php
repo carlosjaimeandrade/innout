@@ -1,7 +1,8 @@
 <main class='content'>
     <?php
         renderTitle('Registrar Ponto', 'Mantenha seu ponto consistente', 'icofont-check-alt');
-        include(TEMPLATE_PATH . "/messages.php");
+        //include(TEMPLATE_PATH . "/messages.php");
+     
     ?>
     <div class="card">
         <div class="card-header">
@@ -10,12 +11,12 @@
         </div>
         <div class="card-body">
             <div class="d-flex m-5 justify-content-around">
-                <span class="record">Entrada 1: ---</span>
-                <span class="record">Saida 2: ---</span>
+                <span class="record">Entrada 1: <?= $records->time1  ?> </span>
+                <span class="record">Saida 2: <?= $records->time2 ?? '---' ?> </span>
             </div>
             <div class="d-flex m-5 justify-content-around">
-                <span class="record">Entrada 1: ---</span>
-                <span class="record">Saida 2: ---</span>
+                <span class="record">Entrada 1: <?= $records->time3 ?? '---' ?> </span>
+                <span class="record">Saida 2: <?= $records->time4 ?? '---' ?> </span>
             </div>
         </div>
     </div>
