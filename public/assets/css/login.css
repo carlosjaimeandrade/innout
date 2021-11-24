@@ -3,21 +3,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ddd;
+    background-color: #DDD;
 }
 
 .form-login {
     flex-basis: 450px;
 }
 
-.card-header {
+.login-card .card-header {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
-.card-footer {
+.login-card .card-footer {
     display: flex;
     justify-content: flex-end;
 }
