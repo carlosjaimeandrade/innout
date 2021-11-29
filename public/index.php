@@ -11,7 +11,7 @@ $uri = str_replace(".php", "", $uri);
 $uri = rtrim($uri, '/');
 
 if($uri === '/' || $uri === '' || $uri === '/index.php'){
-    $uri = '/home';
+    $uri = '/day_records';
 }
 
 if(file_exists(CONTROLLER_PATH . "{$uri}.php")){
